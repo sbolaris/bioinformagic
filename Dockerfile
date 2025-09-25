@@ -10,7 +10,7 @@ RUN apt-get --allow-releaseinfo-change update && \
 	apt-get clean -y
 
 COPY $CONDA_ENV.yaml /opt/env/
-RUN conda env create -f /opt/env/$CONDA_ENV.yaml
+RUN conda env create --file=/opt/env/$CONDA_ENV.yaml
 
 RUN conda clean -afy
 RUN rm root/.bashrc
