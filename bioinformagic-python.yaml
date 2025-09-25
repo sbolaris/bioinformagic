@@ -1,0 +1,44 @@
+name: bioinformagic-python
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - bzip2=1.0.8=h5eee18b_6
+  - ca-certificates=2025.9.9=h06a4308_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - libexpat=2.7.1=hecca717_0
+  - libffi=3.4.6=h2dba641_1
+  - libgcc=15.1.0=h767d61c_5
+  - libgcc-ng=15.1.0=h69a702a_5
+  - libgomp=15.1.0=h767d61c_5
+  - liblzma=5.8.1=hb9d3cd8_2
+  - liblzma-devel=5.8.1=hb9d3cd8_2
+  - libmpdec=4.0.0=h5eee18b_0
+  - libsqlite=3.50.4=h0c1763c_0
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libuuid=2.41.1=he9a06e4_0
+  - libxcb=1.17.0=h9b100fa_0
+  - libzlib=1.3.1=hb25bd0a_0
+  - ncurses=6.5=h7934f7d_0
+  - openssl=3.5.3=h26f9b46_0
+  - pip=25.2=pyhc872135_0
+  - pthread-stubs=0.3=h0ce48e5_1
+  - python=3.13.7=h2b335a9_100_cp313
+  - python_abi=3.13=1_cp313
+  - readline=8.3=hc2a1206_0
+  - setuptools=78.1.1=py313h06a4308_0
+  - sqlite=3.50.2=hb25bd0a_1
+  - tk=8.6.15=h54e0aa7_0
+  - tzdata=2025b=h04d1e81_0
+  - wheel=0.45.1=py313h06a4308_0
+  - xorg-libx11=1.8.12=h9b100fa_1
+  - xorg-libxau=1.0.12=h9b100fa_0
+  - xorg-libxdmcp=1.1.5=h9b100fa_0
+  - xorg-xorgproto=2024.1=h5eee18b_1
+  - xz=5.8.1=hbcc6ac9_2
+  - xz-gpl-tools=5.8.1=hbcc6ac9_2
+  - xz-tools=5.8.1=hb9d3cd8_2
+  - zlib=1.3.1=hb25bd0a_0
+prefix: /home/inferno/miniconda3/envs/bioinformagic-python
